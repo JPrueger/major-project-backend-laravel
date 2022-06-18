@@ -17,9 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/user/all-users', [App\Http\Controllers\UserController::class, 'getAllUsers']);
-
+Route::get('/alltodos', [App\Http\Controllers\TodoController::class, 'getAllTodos']);

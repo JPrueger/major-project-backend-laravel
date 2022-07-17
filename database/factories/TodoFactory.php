@@ -26,7 +26,7 @@ class TodoFactory extends Factory
     {
         return [
             'title' => $this->faker->text(20),
-            'description' => $this->faker->text,
+            'description' => $this->faker->text(200),
             'category' => $this->faker->randomElement(['Urgent', 'Important', 'For later', 'Blocked', 'Needs focus time']),
             'is_complete' => $this->faker->boolean,
         ];

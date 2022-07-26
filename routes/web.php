@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/alltodos', [App\Http\Controllers\TodoController::class, 'getAllTodos']);
+
+Route::get('/download-pdf', [App\Http\Controllers\TodoController::class, 'getDownload']);

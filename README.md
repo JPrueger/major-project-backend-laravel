@@ -9,6 +9,9 @@
 # Used PHP version
 >8.1.2
 
+# Install composer
+>`composer install`
+
 # Change version
 >`brew unlink php@7.4 && brew link php@8.1`
 

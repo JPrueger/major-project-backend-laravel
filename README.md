@@ -1,20 +1,16 @@
-# Aktuelle IP Adresse
+# current IP address
 >`ifconfig`
 
 >check: en0
 
-
-# IP Adresse angeben
+# Use current IP address and run project
 >`php artisan serve --host xx`
 
-
-# used PHP Version
+# Used PHP version
 >8.1.2
 
-
-# change Version
+# Change version
 >`brew unlink php@7.4 && brew link php@8.1`
 
-
-# IP Adresse für GraphQL anpassen
+# Change used IP address in following files
 >in Vue Project - apollo.js
